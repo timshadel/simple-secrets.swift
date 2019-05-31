@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06FC95122A0657E005C69A3 /* SimpleSecrets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06FC94722A0657E005C69A3 /* SimpleSecrets.framework */; };
+		B06FC95622A0657E005C69A3 /* SimpleSecretsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FC95522A0657E005C69A3 /* SimpleSecretsTests.swift */; };
+		B06FC96522A06F65005C69A3 /* SimpleSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FC96422A06F65005C69A3 /* SimpleSecrets.swift */; };
+		B0E4AC7222A0AE20005C8D67 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0E4AC7022A0AE20005C8D67 /* README.md */; };
+		B0E4AC7322A0AE20005C8D67 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B0E4AC7122A0AE20005C8D67 /* LICENSE.md */; };
+		B0E4AC7622A0AE94005C8D67 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0E4AC7422A0AE94005C8D67 /* .travis.yml */; };
+		B0E4AC7722A0AE94005C8D67 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0E4AC7522A0AE94005C8D67 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06FC95222A0657E005C69A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06FC93E22A0657E005C69A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06FC94622A0657E005C69A3;
+			remoteInfo = SimpleSecrets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B06FC94722A0657E005C69A3 /* SimpleSecrets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSecrets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FC95022A0657E005C69A3 /* SimpleSecretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSecretsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FC95522A0657E005C69A3 /* SimpleSecretsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSecretsTests.swift; sourceTree = "<group>"; };
+		B06FC96422A06F65005C69A3 /* SimpleSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSecrets.swift; sourceTree = "<group>"; };
+		B06FC96722A06FD5005C69A3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B0E4AC7022A0AE20005C8D67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0E4AC7122A0AE20005C8D67 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		B0E4AC7422A0AE94005C8D67 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		B0E4AC7522A0AE94005C8D67 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06FC94422A0657E005C69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FC94D22A0657E005C69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FC95122A0657E005C69A3 /* SimpleSecrets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06FC93D22A0657E005C69A3 = {
+			isa = PBXGroup;
+			children = (
+				B06FC96722A06FD5005C69A3 /* Package.swift */,
+				B06FC94922A0657E005C69A3 /* Sources */,
+				B06FC95422A0657E005C69A3 /* Tests */,
+				B0E4AC6F22A0AE02005C8D67 /* Metadata */,
+				B06FC94822A0657E005C69A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06FC94822A0657E005C69A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06FC94722A0657E005C69A3 /* SimpleSecrets.framework */,
+				B06FC95022A0657E005C69A3 /* SimpleSecretsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06FC94922A0657E005C69A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B06FC96322A06F54005C69A3 /* SimpleSecrets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B06FC95422A0657E005C69A3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B06FC96222A067A3005C69A3 /* SimpleSecretsTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B06FC96222A067A3005C69A3 /* SimpleSecretsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06FC95522A0657E005C69A3 /* SimpleSecretsTests.swift */,
+			);
+			path = SimpleSecretsTests;
+			sourceTree = "<group>";
+		};
+		B06FC96322A06F54005C69A3 /* SimpleSecrets */ = {
+			isa = PBXGroup;
+			children = (
+				B06FC96422A06F65005C69A3 /* SimpleSecrets.swift */,
+			);
+			path = SimpleSecrets;
+			sourceTree = "<group>";
+		};
+		B0E4AC6F22A0AE02005C8D67 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B0E4AC7522A0AE94005C8D67 /* .gitignore */,
+				B0E4AC7422A0AE94005C8D67 /* .travis.yml */,
+				B0E4AC7122A0AE20005C8D67 /* LICENSE.md */,
+				B0E4AC7022A0AE20005C8D67 /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B06FC94222A0657E005C69A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B06FC94622A0657E005C69A3 /* SimpleSecrets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06FC95B22A0657E005C69A3 /* Build configuration list for PBXNativeTarget "SimpleSecrets" */;
+			buildPhases = (
+				B06FC94222A0657E005C69A3 /* Headers */,
+				B06FC94322A0657E005C69A3 /* Sources */,
+				B06FC94422A0657E005C69A3 /* Frameworks */,
+				B06FC94522A0657E005C69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSecrets;
+			productName = SimpleSecrets;
+			productReference = B06FC94722A0657E005C69A3 /* SimpleSecrets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B06FC94F22A0657E005C69A3 /* SimpleSecretsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06FC95E22A0657E005C69A3 /* Build configuration list for PBXNativeTarget "SimpleSecretsTests" */;
+			buildPhases = (
+				B06FC94C22A0657E005C69A3 /* Sources */,
+				B06FC94D22A0657E005C69A3 /* Frameworks */,
+				B06FC94E22A0657E005C69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06FC95322A0657E005C69A3 /* PBXTargetDependency */,
+			);
+			name = SimpleSecretsTests;
+			productName = SimpleSecretsTests;
+			productReference = B06FC95022A0657E005C69A3 /* SimpleSecretsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06FC93E22A0657E005C69A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Day Logger, Inc.";
+				TargetAttributes = {
+					B06FC94622A0657E005C69A3 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					B06FC94F22A0657E005C69A3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = B06FC94122A0657E005C69A3 /* Build configuration list for PBXProject "SimpleSecrets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B06FC93D22A0657E005C69A3;
+			productRefGroup = B06FC94822A0657E005C69A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06FC94622A0657E005C69A3 /* SimpleSecrets */,
+				B06FC94F22A0657E005C69A3 /* SimpleSecretsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06FC94522A0657E005C69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E4AC7722A0AE94005C8D67 /* .gitignore in Resources */,
+				B0E4AC7622A0AE94005C8D67 /* .travis.yml in Resources */,
+				B0E4AC7322A0AE20005C8D67 /* LICENSE.md in Resources */,
+				B0E4AC7222A0AE20005C8D67 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FC94E22A0657E005C69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06FC94322A0657E005C69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FC96522A06F65005C69A3 /* SimpleSecrets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FC94C22A0657E005C69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FC95622A0657E005C69A3 /* SimpleSecretsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06FC95322A0657E005C69A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06FC94622A0657E005C69A3 /* SimpleSecrets */;
+			targetProxy = B06FC95222A0657E005C69A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B06FC95922A0657E005C69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		B06FC95A22A0657E005C69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		B06FC95C22A0657E005C69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SimpleSecrets.xcodeproj/SimpleSecrets_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleSecrets;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B06FC95D22A0657E005C69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SimpleSecrets.xcodeproj/SimpleSecrets_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleSecrets;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B06FC95F22A0657E005C69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4Y7P64253;
+				INFOPLIST_FILE = SimpleSecrets.xcodeproj/SimpleSecretsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleSecretsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06FC96022A0657E005C69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4Y7P64253;
+				INFOPLIST_FILE = SimpleSecrets.xcodeproj/SimpleSecretsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleSecretsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06FC94122A0657E005C69A3 /* Build configuration list for PBXProject "SimpleSecrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FC95922A0657E005C69A3 /* Debug */,
+				B06FC95A22A0657E005C69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06FC95B22A0657E005C69A3 /* Build configuration list for PBXNativeTarget "SimpleSecrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FC95C22A0657E005C69A3 /* Debug */,
+				B06FC95D22A0657E005C69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06FC95E22A0657E005C69A3 /* Build configuration list for PBXNativeTarget "SimpleSecretsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FC95F22A0657E005C69A3 /* Debug */,
+				B06FC96022A0657E005C69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06FC93E22A0657E005C69A3 /* Project object */;
+}

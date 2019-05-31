@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: SimpleSecrets.xcodeproj
+xcode_scheme: SimpleSecrets
+xcode_destination: platform=macOs
